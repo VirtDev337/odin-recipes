@@ -1,0 +1,53 @@
+body{ 
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-weight: 800;
+    color: #0570fc;
+}
+h3{
+    font-weight: 400;
+    color: black;
+}
+div, p{
+    color: #0570fc;
+}
+img{
+    width: 800px;
+}
+.container{
+    display: block;
+    width: 100%;
+}
+.card{
+    margin: 1rem 1rem;
+    padding: 0.25rem;
+    display: block;
+    border: 1px solid #0570fc;
+}
+ul.horizontal-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul.horizontal-list li{
+    display: inline-block;
+}
+ul.horizontal-list li a div{
+    font-weight: 400;
+    font-size: 1rem;
+}
+ul.horizontal-list li a div:hover{
+    color: purple;
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+ul.horizontal-list li a div img{
+    width: 175px;
+}
+ul.horizontal-list li a div img:hover{
+    width: 180px;
+}
