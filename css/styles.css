@@ -1,5 +1,6 @@
 body, html{ 
     background-color: black;
+    size: 100%;
 }
 a{
     text-decoration: none;
@@ -25,16 +26,17 @@ img{
 .card{
     margin: 1rem 1rem;
     padding: 0.25rem;
-    display: block;
     border: 1px solid #0570fc;
 }
 ul.horizontal-list{
-    margin: 0;
-    padding: 0;
     list-style-type: none;
+    display: inline-flex;
 }
 ul.horizontal-list li{
-    display: inline-block;
+    flex: auto;
+}
+ul.horizontal-list:first-child li{
+    display: inline-flex;
 }
 ul.horizontal-list li a div{
     font-weight: 400;
@@ -46,6 +48,8 @@ ul.horizontal-list li a div:hover{
     font-size: 1.15rem;
 }
 ul.horizontal-list li a div img{
+    min-height: 175px;
+    min-width: 175px;
     width: 175px;
 }
 ul.horizontal-list li a div img:hover{
