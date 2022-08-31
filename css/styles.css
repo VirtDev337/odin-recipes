@@ -24,13 +24,14 @@ img{
     width: 100%;
 }
 .card{
-    margin: 1rem 1rem;
+    margin: 1rem auto;
     padding: 0.25rem;
     border: 1px solid #0570fc;
 }
 ul.horizontal-list{
     list-style-type: none;
     display: inline-flex;
+    gap: 20rem;
 }
 ul.horizontal-list li{
     flex: auto;
